@@ -143,3 +143,12 @@ html{
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* BG LINHAS*/
+.bg-linhas{
+  background-image: url(./assets/bg-linhas.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+}
