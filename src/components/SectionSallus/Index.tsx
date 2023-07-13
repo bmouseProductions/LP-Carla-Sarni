@@ -5,7 +5,7 @@ import sallus from '../../assets/sallus.png'
 export default function SectionSallus(){
 
     return (
-        <section className="w-full px-7 mb-20 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white ">
+        <section className="w-full px-7 mb-20 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white " data-aos="flip-up" data-aos-duration="1500">
             <div>
                 <img src={sallus} alt="" />
             </div>

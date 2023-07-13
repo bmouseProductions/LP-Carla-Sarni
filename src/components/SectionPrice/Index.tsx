@@ -6,7 +6,7 @@ import Botao from '../button/Index';
 export default function SectionPrice(){
     return (
         <section className="py-20 px-5 md-[5%] flex flex-col lg:flex-row justify-center lg:justify-around xl:justify-center items-center xl:gap-[150px] bg-[#2a2f78]">
-            <div className='flex items-center flex-col gap-5 font-semibold text-white rounded-2xl p-5'>
+            <div className='flex items-center flex-col gap-5 font-semibold text-white rounded-2xl p-5' data-aos="fade-up" data-aos-duration="1500">
                 <div className=''>
                     <h1 className='text-xl lg:text-2xl font-semibold uppercase text-white'>masterclass</h1>
                     <img src={logoBranca} alt=""  className='w-full max-w-xs '/>
@@ -24,7 +24,7 @@ export default function SectionPrice(){
                 </div>
                 
             </div>
-            <div className='pt-20   w-full max-w-md h-[600px]  flex flex-col items-center justify-center shadow-lg bg-linhas rounded-2xl  '>
+            <div className='pt-20   w-full max-w-md h-[600px]  flex flex-col items-center justify-center shadow-lg bg-linhas rounded-2xl ' data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                 <h2 className='text-4xl font-bold'>Oferta Exclusiva</h2>
                 <h3 className='text-3xl font-semibold uppercase bg-sky-500 text-white my-5 '>por apenas 12x</h3>
                 <h2 className='text-8xl xl:text-9xl font-bold'><span className='text-xl xl:text-5xl font-bold'>R$</span>59,58</h2>

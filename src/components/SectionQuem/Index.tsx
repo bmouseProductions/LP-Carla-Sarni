@@ -4,7 +4,7 @@ export default function SectionQuem(){
     return (
         <section className="w-full px-7 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white bg-gradient-to-b from-sky-500 to-[#2a2f78]">
             
-            <div className="max-w-xl ">
+            <div className="max-w-xl " data-aos="zoom-in-down" data-aos-duration="1500">
                 <h1  className="text-4xl md:text-5xl lg:text-5xl font-bold text-gradient mb-5 ">
                     Participe da nossa Masterclass exclusiva!
                 </h1>
@@ -24,7 +24,7 @@ export default function SectionQuem(){
                 </ul>
             </div>
 
-            <div>
+            <div data-aos="zoom-in-down" data-aos-duration="1500">
                 <img src={carla2} alt="" className='w-full max-w-lg ' />
             </div>
          

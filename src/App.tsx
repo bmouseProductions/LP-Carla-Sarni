@@ -6,8 +6,11 @@ import SectionQuem from "./components/SectionQuem/Index"
 import SectionAprender from "./components/SectionAprender/Index"
 import SectionPrice from "./components/SectionPrice/Index"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
   return (
     <>
       <main className="">
