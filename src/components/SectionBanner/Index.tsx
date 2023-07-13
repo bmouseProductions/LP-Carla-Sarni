@@ -1,5 +1,5 @@
 import Botao from '../button/Index'
-import logo from '../../assets/logo.webp'
+import logo from '../../assets/logo-branca.webp'
 import carla from '../../assets/carla-seta.webp'
 
 export default function Section1() {
