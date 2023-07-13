@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // Import modules
+//@ts-ignore
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 
