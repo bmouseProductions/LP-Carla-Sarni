@@ -20,7 +20,7 @@ export default function SectionPrice(){
                 </div>
                 
             </div>
-            <div className='pt-20 pb-10 md:pb-0 lg:py-20  w-full max-w-md h-[500px] lg:h-[600px] flex flex-col items-center justify-center shadow-lg bg-linhas rounded-2xl  '>
+            <div className='pt-20   w-full max-w-md h-[600px]  flex flex-col items-center justify-center shadow-lg bg-linhas rounded-2xl  '>
                 <h2 className='text-4xl font-bold'>Oferta Exclusiva</h2>
                 <h3 className='text-3xl font-semibold uppercase bg-sky-500 text-white my-5 '>por apenas 12x</h3>
                 <h2 className='text-8xl xl:text-9xl font-bold'><span className='text-xl xl:text-5xl font-bold'>R$</span>59,58</h2>
