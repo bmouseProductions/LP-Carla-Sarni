@@ -25,7 +25,7 @@ export default function SectionPrice(){
                 <h3 className='text-3xl font-semibold uppercase bg-sky-500 text-white my-5 '>por apenas 12x</h3>
                 <h2 className='text-8xl xl:text-9xl font-bold'><span className='text-xl xl:text-5xl font-bold'>R$</span>59,58</h2>
                 <h3 className='text-xl font-semibold mt-3'>ou 597,00 à vista!</h3>
-                <div className='w-full px-3 my-auto'>
+                <div className='w-full px-3 my-auto flex justify-center'>
                     <Botao>
                         Garantir minha vaga
                     </Botao>
