@@ -2,7 +2,7 @@ import carla2 from '../../assets/carla2.webp'
 
 export default function SectionQuem(){
     return (
-        <section className="w-full px-7 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white bg-gradient-to-b from-sky-500 to-[#6c64eb]">
+        <section className="w-full px-7 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white bg-gradient-to-b from-sky-500 to-[#2a2f78]">
             
             <div className="max-w-xl ">
                 <h1  className="text-4xl md:text-5xl lg:text-5xl font-bold text-gradient mb-5 ">

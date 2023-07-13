@@ -1,15 +1,15 @@
-import logo from '../../assets/logo.webp'
+import logoBranca from '../../assets/logo-branca.webp'
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import PlaceIcon from '@mui/icons-material/Place';
 import Botao from '../button/Index';
 
 export default function SectionPrice(){
     return (
-        <section className="py-20 px-5 md-[5%] flex flex-col lg:flex-row justify-center lg:justify-around xl:justify-center items-center xl:gap-[150px] bg-[#6c64eb]">
+        <section className="py-20 px-5 md-[5%] flex flex-col lg:flex-row justify-center lg:justify-around xl:justify-center items-center xl:gap-[150px] bg-[#2a2f78]">
             <div className='flex items-center flex-col gap-5 font-semibold text-white rounded-2xl p-5'>
                 <div className=''>
                     <h1 className='text-xl lg:text-2xl font-semibold uppercase text-white'>masterclass</h1>
-                    <img src={logo} alt=""  className='w-full max-w-xs '/>
+                    <img src={logoBranca} alt=""  className='w-full max-w-xs '/>
                 </div>
                 
                 <span className='text-[12px] uppercase font-bold'>próxima turma</span>
