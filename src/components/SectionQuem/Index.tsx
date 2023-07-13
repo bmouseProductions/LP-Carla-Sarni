@@ -1,8 +1,8 @@
-import sallus from '../../assets/sallus.png'
+import carla2 from '../../assets/carla2.webp'
 
 export default function SectionQuem(){
     return (
-        <section className="w-full px-7 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white bg-gradient-to-b from-sky-500 to-[#2a2f78]">
+        <section className="w-full px-7 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white bg-gradient-to-b from-sky-500 to-[#6c64eb]">
             
             <div className="max-w-xl ">
                 <h1  className="text-4xl md:text-5xl lg:text-5xl font-bold text-gradient mb-5 ">
@@ -25,7 +25,7 @@ export default function SectionQuem(){
             </div>
 
             <div>
-                <img src={sallus} alt="" />
+                <img src={carla2} alt="" className='w-full max-w-lg ' />
             </div>
          
      </section>

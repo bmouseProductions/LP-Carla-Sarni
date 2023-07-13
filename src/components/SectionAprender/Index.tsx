@@ -5,7 +5,7 @@ import Botao from '../button/Index'
 
 export default function SectionAprender(){
     return (
-        <section className=" bg-gradient-to-b from-[#2a2f78] to-sky-500">
+        <section className=" bg-gradient-to-b from-[#6c64eb] to-sky-500">
             <div className='w-full max-w-[1400px] m-auto px-5 md:px-[5%] flex flex-col items-center text-white '>
                 <div>
                     <h1 className='text-4xl md:text-5xl text-center font-bold text-gradient mb-10 '>
