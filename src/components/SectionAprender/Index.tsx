@@ -26,7 +26,7 @@ export default function SectionAprender(){
 
                     <div className="flex items-center gap-3 shadow-lg bg-[#d6e3f2] rounded-2xl p-5 mb-5 text-black" data-aos="fade-up" data-aos-duration="1500">
                         <img src={iconFranquia} alt="" />
-                        <p>Como expandir o número de lojas da sua empresa do jeito certo atuando em qualquer mercado, dentre outros.</p>
+                        <p>Como expandir o número de lojas da sua empresa, do jeito certo, atuando em qualquer mercado. Dentre outros.</p>
                     </div>
                     <Botao>
                         Garantir minha vaga

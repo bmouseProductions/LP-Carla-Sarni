@@ -14,7 +14,7 @@ export default function Section1() {
                     <div className='w-full flex flex-col'>
                         <h1 className='text-3xl lg:text-4xl font-semibold uppercase text-white'>masterclass</h1>
                         <img src={logo}  className='xl:max-w-xl ' alt="" />
-                        <span className='w-full text-[18px] md:text-[20px] font-normal text-center  text-white border-[2px] rounded-xl'>Faça parte dessa masterClass exclusiva</span>
+                        <span className='w-full text-[18px] md:text-[20px] font-normal text-center  text-white border-[2px] rounded-xl'>A sua chance de alcançar o sucesso é aqui</span>
                     </div>
                     <h2 className='mt-4 font-semibold text-white text-center  mb-10 md:text-[28px] lg:text-[26px] '>Descubra como expandir sua empresa e levar a sua marca para todo o Brasil, independente da sua área de atuação.</h2>
                     <Botao>
