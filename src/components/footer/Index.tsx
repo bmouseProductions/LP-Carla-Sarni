@@ -14,7 +14,7 @@ export default function Footer() {
 
             <p data-aos="zoom-in-donw" data-aos-duration="1500">Copyright Ⓒ 2023 Carla Sarni.</p>
 
-            <a data-aos="zoom-in-donw" data-aos-duration="1500" href="https://www.bmouseproductions.com/" target="_blank" rel="noopener noreferrer"> Desenvolvido por <strong>BMOUSE PPRODUCTIONS</strong> </a>
+            <a data-aos="zoom-in-donw" data-aos-duration="1500" href="https://www.bmouseproductions.com/" target="_blank" rel="noopener noreferrer"> Desenvolvido por <strong>BMOUSE PRODUCTIONS</strong> </a>
         </footer>
     )
 }

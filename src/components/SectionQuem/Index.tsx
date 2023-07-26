@@ -19,7 +19,7 @@ export default function SectionQuem(){
                 <ul className='pl-5'>
                     <li className='list-disc'>Tem uma empresa consolidada e quer se tornar referência na sua região;</li>
                     <li className='list-disc'>Já tem uma equipe estruturada, mas agora quer expandir o número de unidades físicas da sua empresa e não sabe como;</li>
-                    <li className='list-disc'>Quer saber se é melhor expandir pelo modelo de franquias, por lojas próprias, um ecossistema empresarial ou outros modelos de negócios;</li>
+                    <li className='list-disc'>Quer saber se é melhor expandir pelo modelo de franquias, por lojas próprias, ecossistema empresarial ou outros modelos de negócios;</li>
                     <li className='list-disc'>Tem apetite de crescer e quer levar o faturamento da sua empresa ao próximo nível, mesmo que ainda não saiba por onde começar.</li>
                 </ul>
             </div>

@@ -11,7 +11,7 @@ export default function SectionSallus(){
             </div>
             <div className="max-w-xl ">
                 <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-gradient mb-5 ">
-                    Grupo Sallus
+                    Grupo Salus
                 </h1>
                     <p className='mb-2'>
                         Ao longo dos últimos anos, a Sorridents e outras empresas
