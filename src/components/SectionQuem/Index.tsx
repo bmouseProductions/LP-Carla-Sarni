@@ -12,7 +12,7 @@ export default function SectionQuem(){
                     Aprenda com renomados especialistas do setor e descubra o
                     <strong> MÉTODO REPLICAVÉL</strong> para expandir a sua empresa e levar a sua marca
                     para todo o Brasil, independente do seu nicho de atuação. Se você deseja
-                    se tornar expandir o número de unidades físicas e elevar o faturamento 
+                    expandir o número de unidades físicas e elevar o faturamento 
                     ao próximo nível, esta é a oportunidade ideal.
                 </p>
                 Essa <strong>MASTERCLASS</strong> é para você que:
