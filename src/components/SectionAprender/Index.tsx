@@ -9,7 +9,7 @@ export default function SectionAprender(){
             <div className='w-full max-w-[1400px] m-auto px-5 md:px-[5%] flex flex-col items-center text-white '>
                 <div data-aos="fade-donw" data-aos-duration="1500">
                     <h1 className='text-4xl md:text-5xl text-center font-bold text-gradient mb-10 '>
-                        Alguns dos temas que serão abordados nessa MasterClass são:
+                        Alguns dos temas que serão abordados nesta MasterClass são:
                     </h1>
                 </div>
 
