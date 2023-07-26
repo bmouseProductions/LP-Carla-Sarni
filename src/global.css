@@ -12,7 +12,10 @@
 html{
   background-color: #0ea5e9;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+}
+
+html, body{
+  overflow-x: hidden !important;
 }
 
 .headerSticky{
