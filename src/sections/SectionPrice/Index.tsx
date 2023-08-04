@@ -1,7 +1,7 @@
 import logoBranca from '../../assets/logo-branca.webp'
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import PlaceIcon from '@mui/icons-material/Place';
-import Botao from '../button/Index';
+import Botao from '../../components/button/Index';
 
 export default function SectionPrice(){
     return (

@@ -1,17 +1,17 @@
 
 
-import sallus from '../../assets/sallus.png'
+import sallus from '../../assets/carla2.webp'
 
 export default function SectionSallus(){
 
     return (
-        <section className="w-full px-7 mb-20 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white " data-aos="flip-up" data-aos-duration="1500">
+        <section className="w-full px-5 mb-20 mt-10 lg:mt-20 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-5 lg:gap-10a xl:gap-20 text-white " data-aos="flip-up" data-aos-duration="1500">
             <div>
-                <img src={sallus} alt="" />
+                <img src={sallus} className='max-w-xl' alt="" />
             </div>
-            <div className="max-w-xl ">
+            <div className="max-w-lg ">
                 <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-gradient mb-5 ">
-                    Grupo Salus
+                    Carla Sarni
                 </h1>
                     <p className='mb-2'>
                         Ao longo dos últimos anos, a Sorridents e outras empresas

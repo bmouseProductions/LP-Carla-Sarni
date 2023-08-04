@@ -1,7 +1,7 @@
 import iconSeta from '../../assets/seta-icon.webp'
 import iconMao from '../../assets/mao-icon.webp'
 import iconFranquia from '../../assets/franquia-icon.webp'
-import Botao from '../button/Index'
+import Botao from '../../components/button/Index'
 
 export default function SectionAprender(){
     return (
