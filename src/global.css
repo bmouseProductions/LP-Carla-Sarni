@@ -17,6 +17,9 @@ html{
 html, body{
   overflow-x: hidden !important;
 }
+body{
+  overflow-y: hidden;
+}
 
 .headerSticky{
   position: fixed;
@@ -156,4 +159,10 @@ html, body{
   background-position: center center;
   background-size: cover;
   
+}
+
+.slick-track{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

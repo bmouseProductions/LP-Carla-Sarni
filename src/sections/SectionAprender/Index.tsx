@@ -28,6 +28,67 @@ export default function SectionAprender(){
                         <img src={iconFranquia} alt="" />
                         <p>Como expandir o número de lojas da sua empresa, do jeito certo, atuando em qualquer mercado. Dentre outros.</p>
                     </div>
+
+                    <div className='w-full mt-3 lg:mt-7 flex flex-col lg:flex-row flex-wrap lg:justify-around gap-5'>
+
+                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
+                            <div className='w-full flex gap-5'>
+                                <h1 className='text-2xl font-bold'>
+                                    icon e title
+                                </h1>
+                            </div>
+
+                            <div>
+                                <p>
+                                    Tem uma empresa consolidada e quer se tornar referência na sua região
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
+                            <div className='w-full flex gap-5'>
+                                <h1 className='text-2xl font-bold'>
+                                    icon e title
+                                </h1>
+                            </div>
+
+                            <div>
+                                <p>
+                                    Quer saber se é melhor expandir pelo modelo de franquias, por lojas próprias, um ecossistema empresarial ou outros modelos de negócios.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
+                            <div className='w-full flex gap-5'>
+                                <h1 className='text-2xl font-bold'>
+                                    icon e title
+                                </h1>
+                            </div>
+
+                            <div>
+                                <p>
+                                    Já tem uma equipe estruturada, mas agora quer expandir o número de unidades físicas da sua empresa e não sabe como.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
+                            <div className='w-full flex gap-5'>
+                                <h1 className='text-2xl font-bold'>
+                                    icon e title
+                                </h1>
+                            </div>
+
+                            <div>
+                                <p>
+                                Tem apetite de crescer e quer levar o faturamento da sua empresa ao próximo nível, mesmo que ainda não saiba por onde começar.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
                     <Botao>
                         Garantir minha vaga
                     </Botao>
