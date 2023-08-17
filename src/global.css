@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-html{
+html {
   background-color: #0ea5e9;
   scroll-behavior: smooth;
 }
 
-html, body{
+html,
+body {
   overflow-x: hidden !important;
 }
-body{
+body {
   overflow-y: hidden;
 }
 
-.headerSticky{
+.headerSticky {
   position: fixed;
   top: 0;
   background-color: #05093980;
@@ -31,14 +32,14 @@ body{
   transition-duration: 150ms;
 }
 
-@media only screen and  (min-width: 1024px) {
-  .video{
+@media only screen and (min-width: 1024px) {
+  .video {
     max-width: 60.3125rem;
     z-index: 1;
     position: relative;
   }
 
-  .video:before{
+  .video:before {
     box-shadow: 0px 0px 5px #00b1ff;
     border: 1px solid #00b1ff;
     box-shadow: 0px 0px 20px #00b1ff;
@@ -48,16 +49,15 @@ body{
     height: 85%;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     border-radius: 5px;
     z-index: -2;
   }
 }
 
-
 /*SWIPER CONFIG*/
-.swiper-slide{
+.swiper-slide {
   width: 100%;
   height: 100%;
   display: flex !important;
@@ -65,21 +65,22 @@ body{
   align-items: center !important;
 }
 
-.swiper-button-prev, .swiper-button-next {
-  color:#e70000 !important;
+.swiper-button-prev,
+.swiper-button-next {
+  color: #e70000 !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background: #e70000 !important;
 }
 
-.hidding{
+.hidding {
   display: none;
 }
 
 .image-container {
   position: relative;
-  animation: floatAnimation 15S ease-in infinite alternate;
+  animation: floatAnimation 15s ease-in infinite alternate;
 }
 
 /* ANIMAÇÃO VIBRATE */
@@ -114,64 +115,93 @@ body{
 }
 
 .vibrate-2 {
-	-webkit-animation: vibrate-2 3s ease-in infinite backwards;
-	        animation: vibrate-2 3s ease-in infinite backwards;
+  -webkit-animation: vibrate-2 3s ease-in infinite backwards;
+  animation: vibrate-2 3s ease-in infinite backwards;
 }
 @keyframes vibrate-2 {
   0% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   20% {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
   }
   40% {
     -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   60% {
     -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
   }
   80% {
     -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   100% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
 }
 
 /*TEXTO GRADIENTE*/
 .text-gradient {
-   background: #fff; /* radial-gradient(64.18% 64.18% at 71.16% 35.69%,#d8c1f5 .89%,#b18bee 17.23%,#9d7ded 42.04%,#ab7deb 55.12%,#985ed6 71.54%,#5c0dee 100%);*/
+  background: #fff; /* radial-gradient(64.18% 64.18% at 71.16% 35.69%,#d8c1f5 .89%,#b18bee 17.23%,#9d7ded 42.04%,#ab7deb 55.12%,#985ed6 71.54%,#5c0dee 100%);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 /* BG LINHAS*/
-.bg-linhas{
+.bg-linhas {
   background-image: url(./assets/bg-linhas.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  
 }
 
 /*SLICK SLIDER*/
-.slick-track{
+.slick-track {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slick-arrow{
+.slick-arrow {
   display: none !important;
 }
 
+/* Adicione este código ao seu arquivo de estilo (CSS) */
 
+.card {
+  position: relative;
+  overflow: hidden;
+}
 
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
 
+.card::before {
+  top: 0;
+  left: 0;
+  transform-origin: left;
+}
+
+.card::after {
+  bottom: 0;
+  right: 0;
+  transform-origin: right;
+}
+
+.card:hover::before,
+.card:hover::after {
+  transform: scaleX(1);
+}
