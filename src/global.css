@@ -161,8 +161,17 @@ body{
   
 }
 
+/*SLICK SLIDER*/
 .slick-track{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.slick-arrow{
+  display: none !important;
+}
+
+
+
+

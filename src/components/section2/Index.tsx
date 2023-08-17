@@ -1,6 +1,6 @@
 
 import { Formulario } from "../formulario/Index";
-import Slider from "../slider/Index";
+import Slider from "../slider/Empresas";
 
 import tessmann from '../../assets/tiago-tessmann.png'
 

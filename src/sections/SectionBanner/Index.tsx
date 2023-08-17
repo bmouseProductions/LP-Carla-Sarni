@@ -1,5 +1,5 @@
 import Botao from '../../components/button/Index'
-import Slider from '../../components/slider/Index'
+import Slider from '../../components/slider/Empresas'
 
 import logo from '../../assets/logo-branca.webp'
 import carla from '../../assets/carla-seta.webp'
@@ -39,13 +39,14 @@ export default function Section1() {
                         
                     </div>
                     <h2 className='mt-4 font-semibold mb-5 text-white text-center md:text-[28px] lg:text-[26px] '>Descubra como expandir sua empresa e levar a sua marca para todo o Brasil, independente da sua área de atuação.</h2>
-                    <div className='p-3 flex flex-col sm:flex-row justify-center items-center mb-14 w-full text-[18px] md:text-[20px] font-normal text-center bg-[#2a2f78] text-white '>
+                    <div className='p-3 flex flex-col sm:flex-row justify-center items-center mb-14 w-full text-[18px] md:text-[20px] font-normal text-center bg-[#2a2f78] text-white box'>
                         Evento Gratuito 
                         <div className='mt-1 sm:mt-0'>
                             <DateRangeIcon className='mx-2'/> 05/10 ás 
                             <ScheduleIcon className='mx-2'/> 20h
                         </div>
                     </div>
+                    
                     <Botao>
                         QUERO EXPANDIR MINHA EMPRESA
                     </Botao>

@@ -2,6 +2,28 @@ import logoBranca from '../../assets/logo-branca.webp'
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import PlaceIcon from '@mui/icons-material/Place';
 import Botao from '../../components/button/Index';
+import Slider from '../../components/slider/Depoimentos'
+import Depoiment from '../../components/depoiment/Depoiment'
+
+const slideContent = [
+    <Depoiment
+        nome='Matheus'
+        image= 'https://github.com/matheustxr.png'
+        depoiment= 'lorem one shape asthetic, look at him, is that a pride gay flag? parece que alguem gosta de um baseball bat, não é mesmo?'
+    />,
+    <Depoiment
+        nome='Matheus'
+        image= 'https://github.com/matheustxr.png'
+        depoiment= 'lorem one shape asthetic, look at him, is that a pride gay flag? parece que alguem gosta de um baseball bat, não é mesmo?'
+    />,
+    <Depoiment
+        nome='Matheus'
+        image= 'https://github.com/matheustxr.png'
+        depoiment= 'lorem one shape asthetic, look at him, is that a pride gay flag? parece que alguem gosta de um baseball bat, não é mesmo?'
+    />,
+]
+
+const slideCount = slideContent.length
 
 export default function SectionPrice(){
     return (
@@ -24,18 +46,15 @@ export default function SectionPrice(){
                 </div>
                 
             </div>
-            <div className='pt-20   w-full max-w-md h-[600px]  flex flex-col items-center justify-center shadow-lg bg-linhas rounded-2xl ' data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
-                <h2 className='text-4xl font-bold'>Oferta Exclusiva</h2>
-                <h3 className='text-3xl font-semibold uppercase bg-sky-500 text-white my-5 '>por apenas 12x</h3>
-                <h2 className='text-8xl xl:text-9xl font-bold'><span className='text-xl xl:text-5xl font-bold'>R$</span>59,58</h2>
-                <h3 className='text-xl font-semibold mt-3'>ou R$597,00 à vista!</h3>
-                <div className='w-full px-3 my-auto flex justify-center'>
-                    <Botao>
-                        Garantir minha vaga
-                    </Botao>
-                </div>
-                
+
+            <div className='w-full lg:w-1/3 mt-10 lg:mt-0'>
+                <Slider
+                    slideContent={slideContent}
+                    slideCount={slideCount}
+                />
             </div>
+            
+            
         </section>
     )
 }
