@@ -31,12 +31,12 @@ export default function SectionSallus() {
           se repetiu 4 anos depois na Universidade de Stanford.
         </p>
         <p className="mb-2">
-          E agora, na Masterclass da Expansão Empresarial, vai revelar como você
+          E agora, na Imersão da Expansão Empresarial, vai revelar como você
           também pode conseguir o mesmo de forma saudável e levar a operação da
           sua empresa ao próximo nível.
         </p>
         <p className="mb-2">
-          Para participar gratuitamente da Masterclass e ser avisado quando
+          Para participar gratuitamente da Imersão e ser avisado quando
           começar, toque no link abaixo e inscreva-se já.
         </p>
       </div>
