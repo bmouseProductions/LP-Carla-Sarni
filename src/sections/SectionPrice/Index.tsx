@@ -30,7 +30,7 @@ export default function SectionPrice(){
         <section className="py-20 px-5 md-[5%] flex flex-col lg:flex-row justify-center lg:justify-around xl:justify-center items-center xl:gap-[150px] bg-[#2a2f78]">
             <div className='flex items-center flex-col gap-5 font-semibold text-white rounded-2xl p-5' data-aos="fade-up" data-aos-duration="1500">
                 <div className=''>
-                    <h1 className='text-xl lg:text-2xl font-semibold uppercase text-white'>masterclass</h1>
+                    <h1 className='text-xl lg:text-2xl font-semibold uppercase text-white'></h1>
                     <img src={logoBranca} alt=""  className='w-full max-w-xs '/>
                 </div>
                 

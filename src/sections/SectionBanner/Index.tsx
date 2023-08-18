@@ -34,7 +34,7 @@ export default function Section1() {
                 
                 <div className='w-full px-5 md:px-0 flex flex-col items-center  md:w-[60%] max-w-[600px] md:justify-start lg:items-start 'data-aos="fade-up-left" data-aos-duration="1500">
                     <div className='w-full flex flex-col'>
-                        <h1 className='text-3xl lg:text-4xl font-semibold uppercase text-white'>masterclass</h1>
+                        <h1 className='text-3xl lg:text-4xl font-semibold uppercase text-white'></h1>
                         <img src={logo}  className='xl:max-w-xl ' alt="" />
                         
                     </div>

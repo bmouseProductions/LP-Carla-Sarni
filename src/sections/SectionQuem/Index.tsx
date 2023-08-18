@@ -6,7 +6,7 @@ export default function SectionQuem(){
             
             <div className="lg:max-w-[1300px] " data-aos="zoom-in-down" data-aos-duration="1500">
                 <h1  className="text-4xl md:text-5xl lg:text-5xl sm:text-center font-bold text-gradient mb-5 ">
-                    Para quem é indicada a Masterclass da Expansão Empresarial?
+                    Para quem é indicada a Expansão Empresarial?
                 </h1>
                 <p className='mb-5 sm:text-center text-xl'>
                     Aprenda com renomados especialistas do setor e descubra o
@@ -16,7 +16,7 @@ export default function SectionQuem(){
                     ao próximo nível, esta é a oportunidade ideal.
                 </p>
 
-                <p className='text-xl'> Essa <strong className='text-xl'>MASTERCLASS</strong> é para você que: </p>
+                <p className='text-xl'> Essa <strong className='text-xl'>EXPANSÃO EMPRESARIAL</strong> é para você que: </p>
 
                 <div className='w-full mt-3 lg:mt-7 grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 justify-center items-center gap-5'>
 
