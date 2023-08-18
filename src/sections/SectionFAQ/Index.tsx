@@ -21,15 +21,15 @@ export default function SectionFAQ() {
   ];
   //oi
   return (
-    <section className="w-full flex flex-col lg:flex-row px-5 justify-center items-center">
-      <div className="relative mr-4 lg:mr-48">
+    <section className="w-full flex flex-col lg:flex-row px-5 justify-center items-center gap-5 "> {/*bg-gradient-to-b from-[#0000009b]*/}
+      <div className=" lg:max-w-[500px] xl:max-w-none relative mr-4 2xl:mr-10 ">
         <div className="relative z-0">
-          <h1 className="text-[150px] lg:text-[300px] font-bold text-white">
+          <h1 className=" text-[120px] sm:text-[200px] md:text-[200px] lg:text-[250px] xl:text-[300px] font-bold text-center text-white">
             FAQ
           </h1>
         </div>
-        <div className="w-full h-full absolute top-[50%] ml-3 lg:ml-6 z-10">
-          <h1 className="w-[300px] lg:w-full lg:text-3xl font-bold text-center">
+        <div className="w-full h-full absolute top-[50%] ml-3 lg:ml-6 z-10 ">
+          <h1 className="w-[300px] lg:w-full text-2xl lg:text-3xl font-bold text-center">
             PERGUNTAS FREQUENTES
           </h1>
         </div>

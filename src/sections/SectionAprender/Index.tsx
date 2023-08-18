@@ -13,82 +13,81 @@ export default function SectionAprender(){
                     </h1>
                 </div>
 
-                <div className='flex flex-col gap-10'>
-                    <div className="flex items-center gap-3 shadow-lg bg-[#d6e3f2] rounded-2xl p-5 text-black" data-aos="fade-up-right" data-aos-duration="1500">
-                        <img src={iconSeta} alt="" />
-                        <p>Os principais erros que mantêm sua empresa estagnada e que a impedem de crescer.</p>
-                    </div>
-
-                    <div className="flex items-center gap-3 shadow-lg bg-[#d6e3f2] rounded-2xl p-5 text-black" data-aos="fade-up-left" data-aos-duration="1500">
-                        <img src={iconMao} alt="" />
-                        <p>Como reduzir custos e aumentar a margem de lucro da sua empresa.</p>
-                    </div>
-
-                    <div className="flex items-center gap-3 shadow-lg bg-[#d6e3f2] rounded-2xl p-5 mb-5 text-black" data-aos="fade-up" data-aos-duration="1500">
-                        <img src={iconFranquia} alt="" />
-                        <p>Como expandir o número de lojas da sua empresa, do jeito certo, atuando em qualquer mercado. Dentre outros.</p>
-                    </div>
-
-                    <div className='w-full mt-3 lg:mt-7 flex flex-col lg:flex-row flex-wrap lg:justify-around gap-5'>
-
-                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
-                            <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
+                
+                <div className='flex flex-col items-center'>
+                    <div className="flex flex-col md:flex-row  p-8 items-center justify-center ">
+                        {/* Pilares do Lado Esquerdo */}
+                        <div className="flex flex-col w-full md:w-1/2 lg:w-2/4 p-4">
+                            <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow">
+                                <div>
+                                    <h2 className="text-2xl font-semibold mb-2 text-white">
+                                    GESTÃO DE PESSOAS
+                                    </h2>
+                                    <p className="text-white font-medium text-sm">
+                                    Descubra como desbloquear o potencial máximo da sua equipe.
+                                    Aprenda a liderar, motivar e inspirar, transformando colaboradores
+                                    em verdadeiros parceiros no crescimento do seu negócio. Na Imersão
+                                    Expansão Empresarial, mergulhe em estratégias comprovadas para
+                                    construir uma cultura empresarial coesa e produtiva.
+                                    </p>
+                                </div>
+                                <div className="card-decoration"></div>
                             </div>
 
-                            <div>
-                                <p>
-                                    Tem uma empresa consolidada e quer se tornar referência na sua região
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
-                            <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
-                            </div>
-
-                            <div>
-                                <p>
-                                    Quer saber se é melhor expandir pelo modelo de franquias, por lojas próprias, um ecossistema empresarial ou outros modelos de negócios.
-                                </p>
+                            <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow mt-8">
+                                <div>
+                                    <h2 className="text-2xl font-semibold mb-2 text-white">
+                                    GESTÃO FINANCEIRA
+                                    </h2>
+                                    <p className="text-white font-medium text-sm">
+                                    Aprenda a dominar as finanças do seu negócio de forma estratégica.
+                                    Neste pilar, você vai desvendar os segredos para otimizar o fluxo
+                                    de caixa, investir com inteligência e tomar decisões financeiras
+                                    sólidas. A Imersão vai te capacitar a entender e controlar as
+                                    finanças de maneira que impulsione o crescimento sustentável.
+                                    </p>
+                                </div>
+                                <div className="card-decoration"></div>
                             </div>
                         </div>
 
-                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
-                            <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
-                            </div>
-
+                        {/* Pilares do Lado Direito */}
+                        <div className="flex flex-col w-full md:w-1/2 lg:w-2/4 p-4">
+                            <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow">
                             <div>
-                                <p>
-                                    Já tem uma equipe estruturada, mas agora quer expandir o número de unidades físicas da sua empresa e não sabe como.
+                                <h2 className="text-2xl font-semibold mb-2 text-white">
+                                GESTÃO DE VENDAS
+                                </h2>
+                                <p className="text-white font-medium text-[13px]">
+                                As vendas são a espinha dorsal de qualquer empreendimento. Neste
+                                pilar, você mergulhará em táticas avançadas de vendas que geram
+                                resultados reais. Desde a identificação de leads promissores até o
+                                fechamento, você vai adquirir as habilidades necessárias para
+                                impulsionar suas vendas e aumentar sua base de clientes de forma
+                                significativa.
                                 </p>
                             </div>
-                        </div>
-
-                        <div className='w-full lg:w-[600px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded '>
-                            <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
+                            <div className="card-decoration"></div>
                             </div>
-
+                            <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow mt-8">
                             <div>
-                                <p>
-                                Tem apetite de crescer e quer levar o faturamento da sua empresa ao próximo nível, mesmo que ainda não saiba por onde começar.
+                                <h2 className="text-2xl font-semibold mb-2 text-white">
+                                GESTÃO DE NEGÓCIOS
+                                </h2>
+                                <p className="text-white font-medium text-[13px]">
+                                Elevação dos seus negócios a um novo patamar começa aqui. Explore
+                                estratégias testadas e comprovadas para aprimorar processos,
+                                identificar oportunidades e enfrentar desafios de mercado. Na
+                                Imersão, você terá acesso a insights que vão transformar a maneira
+                                como você conduz seus negócios, abrindo caminho para expansão e
+                                sucesso duradouro.
                                 </p>
                             </div>
+                            <div className="card-decoration"></div>
+                            </div>
                         </div>
-
                     </div>
-                    
+
                     <Botao>
                         Garantir minha vaga
                     </Botao>
