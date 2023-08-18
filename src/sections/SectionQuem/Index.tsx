@@ -6,7 +6,7 @@ export default function SectionQuem(){
             
             <div className="lg:max-w-[1300px] " data-aos="zoom-in-down" data-aos-duration="1500">
                 <h1  className="text-4xl md:text-5xl lg:text-5xl sm:text-center font-bold text-gradient mb-5 ">
-                    Para quem é indicada a Expansão Empresarial?
+                    Para quem é indicada a Imersão Expansão Empresarial?
                 </h1>
                 <p className='mb-5 sm:text-center text-xl'>
                     Aprenda com renomados especialistas do setor e descubra o
