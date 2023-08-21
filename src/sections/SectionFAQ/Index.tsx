@@ -3,20 +3,20 @@ import Acordion from "../../components/accordion/Index";
 export default function SectionFAQ() {
   const contentAccordion = [
     {
-      title: "Pergunta",
-      text: "Resposta",
+      title: "Como participar da Imersão?",
+      text: "Para participar gratuitamente da Imersão Expansão Empresarial e ser avisado sobre o início, clique no link fornecido e faça sua inscrição.",
     },
     {
-      title: "Pergunta",
-      text: "Resposta",
+      title: "A Imersão é realmente gratuita?",
+      text: "Sim, a participação na Imersão Expansão Empresarial é gratuita.",
     },
     {
-      title: "Pergunta",
-      text: "resposta",
+      title: "Quando a Imersão começa?",
+      text: "Para saber sobre o início da Imersão, inscreva-se no link fornecido, e você será avisado sobre as datas e detalhes do evento.",
     },
     {
-      title: "Pergunta",
-      text: "Resposta",
+      title: "A Imersão é um evento 100% online?",
+      text: "Sim, a Imersão Expansão Empresarial é um evento online, o que significa que você pode participar de qualquer lugar com acesso à internet.",
     },
   ];
   //oi
