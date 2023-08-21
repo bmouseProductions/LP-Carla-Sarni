@@ -1,4 +1,4 @@
-import sallus from "../../assets/carla2.webp";
+import sallus from "../../assets/carlanovo1.webp";
 
 export default function SectionSallus() {
   return (
@@ -8,9 +8,9 @@ export default function SectionSallus() {
       data-aos-duration="1500"
     >
       <div>
-        <img src={sallus} className="max-w-xl" alt="" />
+        <img src={sallus} className="max-w-md" alt="" />
       </div>
-      <div className="max-w-lg ">
+      <div className="max-w-lg lg:pt-10">
         <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-gradient mb-5 ">
           Carla Sarni
         </h1>

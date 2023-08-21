@@ -2,6 +2,10 @@ import iconSeta from '../../assets/seta-icon.webp'
 import iconMao from '../../assets/mao-icon.webp'
 import iconFranquia from '../../assets/franquia-icon.webp'
 import Botao from '../../components/button/Index'
+import DomainIcon from '@mui/icons-material/Domain';
+import PaidIcon from '@mui/icons-material/Paid';
+import PeopleIcon from '@mui/icons-material/People';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 
 export default function SectionAprender(){
     return (
@@ -20,8 +24,8 @@ export default function SectionAprender(){
                         <div className="flex flex-col w-full md:w-1/2 lg:w-2/4 p-4">
                             <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow">
                                 <div>
-                                    <h2 className="text-2xl font-semibold mb-2 text-white">
-                                    GESTÃO DE PESSOAS
+                                    <h2 className="flex items-center gap-3 text-2xl font-semibold mb-2 text-white">
+                                    GESTÃO DE PESSOAS <PeopleIcon />
                                     </h2>
                                     <p className="text-white font-medium text-sm">
                                     Descubra como desbloquear o potencial máximo da sua equipe.
@@ -36,8 +40,8 @@ export default function SectionAprender(){
 
                             <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow mt-8">
                                 <div>
-                                    <h2 className="text-2xl font-semibold mb-2 text-white">
-                                    GESTÃO FINANCEIRA
+                                    <h2 className="flex items-center gap-3 text-2xl font-semibold mb-2 text-white">
+                                    GESTÃO FINANCEIRA <PaidIcon />
                                     </h2>
                                     <p className="text-white font-medium text-sm">
                                     Aprenda a dominar as finanças do seu negócio de forma estratégica.
@@ -55,8 +59,8 @@ export default function SectionAprender(){
                         <div className="flex flex-col w-full md:w-1/2 lg:w-2/4 p-4">
                             <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow">
                             <div>
-                                <h2 className="text-2xl font-semibold mb-2 text-white">
-                                GESTÃO DE VENDAS
+                                <h2 className="flex items-center gap-3 text-2xl font-semibold mb-2 text-white">
+                                GESTÃO DE VENDAS <TrendingUpIcon />
                                 </h2>
                                 <p className="text-white font-medium text-[13px]">
                                 As vendas são a espinha dorsal de qualquer empreendimento. Neste
@@ -71,8 +75,8 @@ export default function SectionAprender(){
                             </div>
                             <div className="relative bg-[#0ea5e9] shadow-lg rounded-lg p-6 flex flex-col justify-between flex-grow mt-8">
                             <div>
-                                <h2 className="text-2xl font-semibold mb-2 text-white">
-                                GESTÃO DE NEGÓCIOS
+                                <h2 className="flex items-center gap-3 text-2xl font-semibold mb-2 text-white">
+                                GESTÃO DE NEGÓCIOS <DomainIcon />
                                 </h2>
                                 <p className="text-white font-medium text-[13px]">
                                 Elevação dos seus negócios a um novo patamar começa aqui. Explore
