@@ -1,6 +1,4 @@
-import iconSeta from '../../assets/seta-icon.webp'
-import iconMao from '../../assets/mao-icon.webp'
-import iconFranquia from '../../assets/franquia-icon.webp'
+
 import Botao from '../../components/button/Index'
 import DomainIcon from '@mui/icons-material/Domain';
 import PaidIcon from '@mui/icons-material/Paid';

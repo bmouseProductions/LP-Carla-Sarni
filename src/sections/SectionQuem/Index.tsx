@@ -1,4 +1,7 @@
-
+import consolidada from '../../assets/icon-consolidada.svg'
+import expandir from '../../assets/icon-expandir.svg'
+import equipe from '../../assets/icon-equipe.svg'
+import faturamento from '../../assets/icon-faturamento.svg'
 
 export default function SectionQuem(){
     return (
@@ -24,9 +27,7 @@ export default function SectionQuem(){
 
                         <div className='w-full max-w-[450px] h-1/2 p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
+                                <img className='w-[100px] mx-auto' src={consolidada} alt="" />
                             </div>
 
                             <div>
@@ -38,9 +39,7 @@ export default function SectionQuem(){
 
                         <div className='w-full max-w-[450px] h-1/2 p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
+                                <img className='w-[100px] mx-auto' src={equipe} alt="" />
                             </div>
 
                             <div>
@@ -54,9 +53,7 @@ export default function SectionQuem(){
                     <div className=" flex flex-col items-center md:items-start gap-5">
                         <div className='w-full max-w-[450px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
+                                <img className='w-[100px] mx-auto' src={expandir} alt="" />
                             </div>
 
                             <div>
@@ -68,9 +65,7 @@ export default function SectionQuem(){
 
                         <div className='w-full max-w-[450px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <h1 className='text-2xl font-bold'>
-                                    icon e title
-                                </h1>
+                                <img className='w-[100px] mx-auto' src={faturamento} alt="" />
                             </div>
 
                             <div>

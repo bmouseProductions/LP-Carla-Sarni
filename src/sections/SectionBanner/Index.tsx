@@ -27,7 +27,7 @@ const slideCount = slideContent.length;
 export default function Section1() {
     return(
         <section className="w-full pt-[60px] bg-gradient-to-b lg:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#2a2f78] to-sky-500 md:to-70% ">
-            <div className='md:px-[5%] min-h-screen flex flex-col lg:flex-row-reverse items-center lg:items-start lg:mt-10 '>
+            <div className='md:px-[5%] flex flex-col lg:flex-row-reverse items-center lg:items-start lg:mt-10 '>
                 <div data-aos="fade-up-right" data-aos-duration="1500">
                     <img src={carla} alt="" className='w-[95%] m-auto md:m-0 md:max-w-lg xl:max-w-3xl vibrate-2' />
                 </div>
