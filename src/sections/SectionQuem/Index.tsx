@@ -8,7 +8,7 @@ export default function SectionQuem(){
         <section className="w-full px-5 mt-14 lg:mt-20 flex flex-col items-center gap-5 lg:gap-10a xl:gap-20 text-white bg-gradient-to-b from-sky-500 to-[#2a2f78]">
             
             <div className="lg:max-w-[1300px] " data-aos="zoom-in-down" data-aos-duration="1500">
-                <h1  className="text-4xl md:text-5xl lg:text-5xl sm:text-center font-bold text-gradient mb-5 ">
+                <h1  className="text-4xl md:text-5xl lg:text-5xl sm:text-center font-bold text-gradient mb-5 h-[165px] lg:h-[60px]">
                     Para quem é indicada a Imersão Expansão Empresarial?
                 </h1>
                 <p className='mb-5 sm:text-center text-xl'>
@@ -19,7 +19,7 @@ export default function SectionQuem(){
                     ao próximo nível, esta é a oportunidade ideal.
                 </p>
 
-                <p className='text-xl'> Essa <strong className='text-xl'>EXPANSÃO EMPRESARIAL</strong> é para você que: </p>
+                <p className='text-[20px]  '> Essa <strong className='text-xl'>EXPANSÃO EMPRESARIAL</strong> é para você que: </p>
 
                 <div className='w-full mt-3 lg:mt-7 grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 justify-center items-center gap-5'>
 
@@ -27,7 +27,7 @@ export default function SectionQuem(){
 
                         <div className='w-full max-w-[450px] h-1/2 p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <img className='w-[100px] mx-auto' src={consolidada} alt="" />
+                                <img className='w-[100px] my-2 mx-auto' src={consolidada} alt="" />
                             </div>
 
                             <div>
@@ -39,7 +39,7 @@ export default function SectionQuem(){
 
                         <div className='w-full max-w-[450px] h-1/2 p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <img className='w-[100px] mx-auto' src={equipe} alt="" />
+                                <img className='w-[100px] my-2 mx-auto' src={equipe} alt="" />
                             </div>
 
                             <div>
@@ -53,7 +53,7 @@ export default function SectionQuem(){
                     <div className=" flex flex-col items-center md:items-start gap-5">
                         <div className='w-full max-w-[450px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <img className='w-[100px] mx-auto' src={expandir} alt="" />
+                                <img className='w-[100px] my-2 mx-auto' src={expandir} alt="" />
                             </div>
 
                             <div>
@@ -65,7 +65,7 @@ export default function SectionQuem(){
 
                         <div className='w-full max-w-[450px] p-3 flex flex-col gap-2 border-2 border-b-2 rounded bg-[#2a2f78b5] '>
                             <div className='w-full flex gap-5'>
-                                <img className='w-[100px] mx-auto' src={faturamento} alt="" />
+                                <img className='w-[100px] my-2 mx-auto' src={faturamento} alt="" />
                             </div>
 
                             <div>
