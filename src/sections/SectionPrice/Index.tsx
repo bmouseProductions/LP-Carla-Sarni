@@ -37,7 +37,7 @@ export default function SectionPrice(){
                 <span className='text-[12px] uppercase font-bold'>próxima turma</span>
                 <div className='w-[250px] p-3 flex items-center gap-5 rounded text-black bg-[#d6e3f2] shadow-lg'>
                     <CalendarTodayIcon className='!text-[50px] ' />
-                    <p>17, 18 e 19 de Julho</p>
+                    <p>05 e 06 de Outubro</p>
                 </div>
                 <span className='text-[12px] uppercase font-bold'>local</span>
                 <div className='w-[250px] p-3 flex items-center gap-5 rounded text-black bg-[#d6e3f2] shadow-lg'>
